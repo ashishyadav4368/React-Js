@@ -12,7 +12,7 @@ const Prop = (props) => {
   );
 };
 
-// export default Prop;
+export default Prop;
 
 // props destructuring
 // const Prop = ({ name, age, isMarried, hobbies }) => {

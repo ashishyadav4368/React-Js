@@ -9,6 +9,7 @@ import RenderObject from "./components/RenderObject";
 import UserList from "./components/UserList";
 import ProductList from "./components/ProductList";
 import Prop from "./components/Prop";
+import PropExercise from "./components/PropExercise";
 
 const App = () => {
   return (
@@ -30,6 +31,8 @@ const App = () => {
         isMarried={false}
         hobbies={["sleeping", "coding", "eating"]}
       />
+
+      <PropExercise name="Ashish Yadav" age={22} />
       <Footer />
     </div>
   );
