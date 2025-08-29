@@ -2,6 +2,7 @@ import React from "react";
 import Icons from "./components/Icons";
 import StyledCard from "./components/StyledCard";
 import ProfileCard from "./components/ProfileCard";
+import OnClickEvent from "./components/onClickEvent";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
 
       <StyledCard />
       <ProfileCard />
+      <OnClickEvent />
     </div>
   );
 };
