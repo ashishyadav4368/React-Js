@@ -12,6 +12,9 @@ import Prop from "./components/Prop";
 import PropExercise from "./components/PropExercise";
 import Card from "./components/Card";
 import ConditionRender from "./components/ConditionRender";
+import Cart from "./components/Cart";
+import UserStatus from "./components/UserStatus";
+import GreetingProps from "./components/GreetingProps";
 
 const App = () => {
   return (
@@ -43,6 +46,9 @@ const App = () => {
       </Card>
 
       <ConditionRender isValid={true} />
+      <Cart />
+      <UserStatus loggedIn={true} isAdmin={false} />
+      <GreetingProps timeOfDay="morning" />
       <Footer />
     </div>
   );
