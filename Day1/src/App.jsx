@@ -8,6 +8,7 @@ import RenderList from "./components/RenderList";
 import RenderObject from "./components/RenderObject";
 import UserList from "./components/UserList";
 import ProductList from "./components/ProductList";
+import Prop from "./components/Prop";
 
 const App = () => {
   return (
@@ -22,6 +23,13 @@ const App = () => {
       <RenderObject />
       <UserList />
       <ProductList />
+      {/* passing props  */}
+      <Prop
+        name="Ashish Yadav"
+        age={22}
+        isMarried={false}
+        hobbies={["sleeping", "coding", "eating"]}
+      />
       <Footer />
     </div>
   );
