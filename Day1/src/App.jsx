@@ -11,6 +11,7 @@ import ProductList from "./components/ProductList";
 import Prop from "./components/Prop";
 import PropExercise from "./components/PropExercise";
 import Card from "./components/Card";
+import ConditionRender from "./components/ConditionRender";
 
 const App = () => {
   return (
@@ -37,9 +38,11 @@ const App = () => {
       <Card>
         <h1>this is my card</h1>
         <p>here is some content for the card </p>
-        //now how will thi be accessed uisng props , so pops.children comes here
-        to do so .
+        {/* //now how will thi be accessed uisng props , so pops.children comes here
+        to do so . */}
       </Card>
+
+      <ConditionRender isValid={true} />
       <Footer />
     </div>
   );
