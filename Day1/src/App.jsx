@@ -6,6 +6,8 @@ import Greet from "./components/Greet";
 import ProductInfor from "./components/ProductInfor";
 import RenderList from "./components/RenderList";
 import RenderObject from "./components/RenderObject";
+import UserList from "./components/UserList";
+import ProductList from "./components/ProductList";
 
 const App = () => {
   return (
@@ -18,6 +20,8 @@ const App = () => {
       <ProductInfor />
       <RenderList />
       <RenderObject />
+      <UserList />
+      <ProductList />
       <Footer />
     </div>
   );
