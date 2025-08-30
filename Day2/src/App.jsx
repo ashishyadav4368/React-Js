@@ -3,6 +3,8 @@ import Icons from "./components/Icons";
 import StyledCard from "./components/StyledCard";
 import ProfileCard from "./components/ProfileCard";
 import OnClickEvent from "./components/onClickEvent";
+import OnCopyEvent from "./components/OnCopyEvent";
+import OnHoverEvent from "./components/OnHoverEvent";
 
 const App = () => {
   return (
@@ -21,6 +23,8 @@ const App = () => {
       <StyledCard />
       <ProfileCard />
       <OnClickEvent />
+      <OnCopyEvent />
+      <OnHoverEvent />
     </div>
   );
 };
