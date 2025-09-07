@@ -15,6 +15,8 @@ import ExampleOne from "./components/ExampleOne";
 import ExampleTwo from "./components/ExampleTwo";
 import ExampleThree from "./components/ExampleThree";
 import Todo from "./components/Challenge/Todo";
+import Profile from "./components/Challenge/Profile";
+import ShoppingList from "./components/Challenge/ShoppingList";
 
 const App = () => {
   const [count, setCount] = useState(0); // now we will give this state to component1 and component2 as props
@@ -47,7 +49,9 @@ const App = () => {
       {/* <ExampleOne /> */}
       {/* <ExampleTwo /> */}
       {/* <ExampleThree /> */}
-      <Todo />
+      {/* <Todo /> */}
+      {/* <Profile /> */}
+      <ShoppingList />
     </div>
   );
 };
