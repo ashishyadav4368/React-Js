@@ -13,6 +13,7 @@ import {
 } from "./components/UseContext/Challenge/UserContext";
 import UserProfile from "./components/UseContext/Challenge/UserProfile";
 import UpdateUser from "./components/UseContext/Challenge/UpdateUser";
+import UseReducer from "./components/UseReducer/UseReducer";
 
 export const Data = createContext();
 export const Data1 = createContext();
@@ -33,10 +34,14 @@ const App = () => {
     //   </Data1.Provider>
     // </Data.Provider>
 
-    <UserProvider>
-      <UserProfile />
-      <UpdateUser />
-    </UserProvider>
+    // <UserProvider>
+    //   <UserProfile />
+    //   <UpdateUser />
+    // </UserProvider>
+
+    <>
+      <UseReducer />
+    </>
   );
 };
 
